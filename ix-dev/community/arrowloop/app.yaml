@@ -1,0 +1,39 @@
+app_version: 2.9.2
+capabilities: []
+categories:
+- storage
+changelog_url: https://github.com/junkerderprovinz/arrowloop/releases
+date_added: '2026-11-26'
+description: ArrowLoop keeps two folders in sync in both directions, lists every change
+  before a run and stops a run that would delete more than half the known files.
+home: https://github.com/junkerderprovinz/arrowloop
+host_mounts: []
+icon: https://media.sys.truenas.net/apps/arrowloop/icons/icon.png
+keywords:
+- sync
+- rclone
+- webdav
+lib_version: 2.3.22
+lib_version_hash: 9e1c926d174eeac7c158a956a7aa3e2d87b01c2e99c733dd500f388468e95213
+maintainers:
+- email: dev@truenas.com
+  name: truenas
+  url: https://www.truenas.com/
+name: arrowloop
+risks:
+- key: host_network
+  label: Host Networking
+run_as_context:
+- description: Container [arrowloop] can run as any non-root user and group.
+  gid: 568
+  group_name: Host group is [apps]
+  uid: 568
+  user_name: Host user is [apps]
+screenshots: []
+sources:
+- https://apps.truenas.com/catalog/arrowloop_community/
+- https://github.com/junkerderprovinz/arrowloop
+- https://github.com/junkerderprovinz/arrowloop/pkgs/container/arrowloop
+title: ArrowLoop
+train: community
+version: 1.0.0

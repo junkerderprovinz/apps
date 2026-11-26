@@ -1,0 +1,13 @@
+images:
+  image:
+    repository: ghcr.io/junkerderprovinz/arrowloop
+    tag: "2.9.2@sha256:094485994033daf0b9a84606a4ba99c4041bc42c040ccb61ab63137d50424cbc"
+  container_utils_image:
+    repository: ghcr.io/truenas/containers/container-utils
+    tag: "1.1.2@sha256:6ddfdc314af9d18cfacb836ad266ef0ed91fecaa3686b20be72e464972860c08"
+
+consts:
+  arrowloop_container_name: arrowloop
+  perms_container_name: permissions
+  config_path: /config
+  data_path: /data

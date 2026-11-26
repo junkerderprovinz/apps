@@ -1,0 +1,8 @@
+categories:
+- storage
+icon_url: https://media.sys.truenas.net/apps/arrowloop/icons/icon.png
+screenshots: []
+tags:
+- sync
+- rclone
+- webdav
